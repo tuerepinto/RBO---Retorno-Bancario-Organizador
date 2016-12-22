@@ -4,7 +4,7 @@ Sistema para organizar os arquivos de retorno. Os arquivos são gerados pelo Ban
 
 ###### Sistema para organizar os arquivos de retorno gerados pelo Banco Itaú - SISPAG.
 
-**Versão 1.0.0** 👌
+Versão 1.0.0 👌
 
 * Lê os arquivos dentro da pasta "C:\ArquivoRetBanc\ArquivosRet_00". Em seguida organiza os arquivos validando pelo valor da conta corrente na linha "Hearder".
 * Movimenta cada arquivo de retorno para dentro da pasta, relacionando conta corente com o nome do empreendimento. Usando os dados informado pelo usuário.
@@ -20,7 +20,7 @@ Sistema para organizar os arquivos de retorno. Os arquivos são gerados pelo Ban
 
 **Versão 1.3.0** 👌
 
-* Separador do tipo de arquivo, lendo as linhas que cont�m 00 & BD.
+* Separa os arquivos após realizar a leitura. O sistema identifica se e do tipo validador de borderô "BD" ou se de fato é um arquivo de validação do pagamento "00".
 
 **Versão 1.4.0** 👎
 
@@ -30,9 +30,21 @@ Sistema para organizar os arquivos de retorno. Os arquivos são gerados pelo Ban
 
 *Itens para melhoria*
 
-*~~Modificar a mensagem de finalização.~~
+* ~~Modificar a mensagem de finalização.~~
 
-*~~Implementar a criação dos diretórios antes da execução de leitura e organização.~~
+* ~~Implementar a criação dos diretórios antes da execução de leitura e organização.~~
+
+* ~~Separar os tipos de arquivos .ret pela linha Lote buscando o valor 00 & BD~~
+
+* Criar estrutura organizadora por data, para novos arquivos.
+
+* Criar rastreio de arquivos no formato .RET, em seguida mover para a pasta "C:...\ARQUIVO_RET"
+
+*Itens para melhoria*
+
+*~~Modificar a mensagem de finalizaÃ§Ã£o.~~
+
+*~~Implementar a criaÃ§Ã£o dos diretÃ³rios antes da execuÃ§Ã£o de leitura e organizaÃ§Ã£o.~~
 
 *~~Separar os tipos de arquivos .ret pela linha Lote buscando o valor 00 & BD~~
 
