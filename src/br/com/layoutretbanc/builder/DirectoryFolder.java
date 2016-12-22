@@ -24,6 +24,22 @@ public class DirectoryFolder {
 	public static String directoryHsp = "C:\\ArquivoRetBanc\\ArquivosRet_00\\CONCRETO_HPS"; //Hotel São Paulo
 	public static String directorySpe = "C:\\ArquivoRetBanc\\ArquivosRet_00\\CONCRETO_SPE"; //SPE Patagonia
 	
+	public static String directoryCHBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_HOLDING"; //Holding
+	public static String directoryObGBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_OBG"; //Obras Gerais
+	public static String directoryNegBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_NEG"; //Negocio
+	public static String directoryComBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_COM"; //COM
+	public static String directoryCprBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_CPR";	//CPR
+	public static String directoryQuiBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_QUI";	//Quintas
+	public static String directoryPnlBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_PNL"; //Portal Nova Lima
+	public static String directoryBlueBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_BLUE"; //Blue
+	public static String directoryGdBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_GARDEN"; //Garden
+	public static String directoryGtBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_GREEN"; //Green
+	public static String directoryImpBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_IMP"; //Imperial
+	public static String directoryLumBD= "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_LUM"; //Lumiere
+	public static String directoryVicBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_VIC";	//Victoria
+	public static String directoryHspBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_HPS"; //Hotel São Paulo
+	public static String directorySpeBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_SPE"; //SPE Patagonia
+	
 	public static String nome;
 
 	public static String getNome() {

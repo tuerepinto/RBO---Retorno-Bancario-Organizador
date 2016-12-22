@@ -8,7 +8,9 @@ import br.com.layoutretbanc.builder.ListFile;
 public class OpenFolderController {
 	DirectoryFolder df = new DirectoryFolder();
 	ReadeFileController rfc = new ReadeFileController();
+	ReaderAllFileController rafc = new ReaderAllFileController();
 	MoveFileController mfc = new MoveFileController();
+	
 	ListFile lf = new ListFile();
 	File folder = new File(dir);
 
@@ -40,17 +42,18 @@ public class OpenFolderController {
 
 	// method reader lote .ret banc - class ReadeFile
 	private String loteDetalhe(String dir) {
-		// rfc.loteDetalhe();
-		return "";
+		rafc.readerLote();
+		return ListFile.getLotes();
 	}
 
 	// method reader trailer .ret banc - class ReadeFile
 	private String trailerDetalhe(String dir) {
 		rfc.trailerDetalhe();
-		return ListFile.getTrailer();
+		return "";
 	}
 	
 	private String move(String string) {
+		rafc.filesMoveBD();
 		rfc.filesMove();
 		return "";
 	}

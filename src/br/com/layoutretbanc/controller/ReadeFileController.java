@@ -66,45 +66,60 @@ public class ReadeFileController {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 	}
-	
+
 	/*
-	 * Leitura e movimentacao dos arquivos para suas pastas destino
-	 * Arquivos ainda não separado pelas sua linha.
+	 * Leitura e movimentacao dos arquivos para suas pastas destino Arquivos
+	 * ainda não separado pelas sua linha.
 	 */
-	
-	public void filesMove(){
-		if (ListFile.getHeader().contains(mf.lineArqOneConHold)) {
+
+	public void filesMove() {
+		if (ListFile.getHeader().contains(mf.lineArqOneConHold) != ListFile.getLotes().contains(mf.lineArqOneConHold)) {
 			MoveFileController.moveFilesCh();
-		} else if (ListFile.getHeader().contains(mf.lineArqOneConObG)) {
+		} else if (ListFile.getHeader().contains(mf.lineArqOneConObG) != ListFile.getLotes()
+				.contains(mf.lineArqOneConObGBD)) {
 			MoveFileController.moveFilesObG();
-		}else if(ListFile.getHeader().contains(mf.lineArqOneConCom)){
+		} else if (ListFile.getHeader().contains(mf.lineArqOneConCom) != ListFile.getLotes()
+				.contains(mf.lineArqOneConComBD)) {
 			MoveFileController.moveFilesCom();
-		}else if(ListFile.getHeader().contains(mf.lineArqOneConCpr)){
+		} else if (ListFile.getHeader().contains(mf.lineArqOneConCpr) != ListFile.getLotes()
+				.contains(mf.lineArqOneConCprBD)) {
 			MoveFileController.moveFilesCpr();
-		}else if(ListFile.getHeader().contains(mf.lineArqOneConQui)){
+		} else if (ListFile.getHeader().contains(mf.lineArqOneConQui) != ListFile.getLotes()
+				.contains(mf.lineArqOneConQuiBD)) {
 			MoveFileController.moveFilesQui();
-		}else if(ListFile.getHeader().contains(mf.lineArqOneConPnl)){
+		} else if (ListFile.getHeader().contains(mf.lineArqOneConPnl) != ListFile.getLotes()
+				.contains(mf.lineArqOneConPnlBD)) {
 			MoveFileController.moveFilesPnl();
-		}else if(ListFile.getHeader().contains(mf.lineArqOneConNeg)){
+		} else if (ListFile.getHeader().contains(mf.lineArqOneConNeg) != ListFile.getLotes()
+				.contains(mf.lineArqOneConNegBD)) {
 			MoveFileController.moveFilesNeg();
-		}else if(ListFile.getHeader().contains(mf.lineArqOneConGd)){
+		} else if (ListFile.getHeader().contains(mf.lineArqOneConGd) != ListFile.getLotes()
+				.contains(mf.lineArqOneConGdBD)) {
 			MoveFileController.moveFilesGd();
-		}else if(ListFile.getHeader().contains(mf.lineArqOneConGt)){
+		} else if (ListFile.getHeader().contains(mf.lineArqOneConGt) != ListFile.getLotes()
+				.contains(mf.lineArqOneConGtBD)) {
 			MoveFileController.moveFilesGt();
-		}else if(ListFile.getHeader().contains(mf.lineArqOneConImp)){
+		} else if (ListFile.getHeader().contains(mf.lineArqOneConImp) != ListFile.getLotes()
+				.contains(mf.lineArqOneConImpBD)) {
 			MoveFileController.moveFilesImp();
-		}else if(ListFile.getHeader().contains(mf.lineArqOneConLum)){
+		} else if (ListFile.getHeader().contains(mf.lineArqOneConLum) != ListFile.getLotes()
+				.contains(mf.lineArqOneConLumBD)) {
 			MoveFileController.moveFilesLum();
-		}else if(ListFile.getHeader().contains(mf.lineArqOneConVic)){
+		} else if (ListFile.getHeader().contains(mf.lineArqOneConVic) != ListFile.getLotes()
+				.contains(mf.lineArqOneConVicBD)) {
 			MoveFileController.moveFilesVic();
-		}else if(ListFile.getHeader().contains(mf.lineArqOneConBlue)){
+		} else if (ListFile.getHeader().contains(mf.lineArqOneConBlue) != ListFile.getLotes()
+				.contains(mf.lineArqOneConBlueBD)) {
 			MoveFileController.moveFilesBlue();
-		}else if(ListFile.getHeader().contains(mf.lineArqOneConHsp)){
+		} else if (ListFile.getHeader().contains(mf.lineArqOneConHsp) != ListFile.getLotes()
+				.contains(mf.lineArqOneConHspBD)) {
 			MoveFileController.moveFilesHsp();
-		}else if(ListFile.getHeader().contains(mf.lineArqOneConSpe)){
+		} else if (ListFile.getHeader().contains(mf.lineArqOneConSpe) != ListFile.getLotes()
+				.contains(mf.lineArqOneConSpeBD)) {
 			MoveFileController.moveFilesSpe();
-		}			
+		}
 	}
+
 }
