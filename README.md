@@ -39,15 +39,3 @@ Versão 1.0.0 👌
 * Criar estrutura organizadora por data, para novos arquivos.
 
 * Criar rastreio de arquivos no formato .RET, em seguida mover para a pasta "C:...\ARQUIVO_RET"
-
-*Itens para melhoria*
-
-*~~Modificar a mensagem de finalizaÃ§Ã£o.~~
-
-*~~Implementar a criaÃ§Ã£o dos diretÃ³rios antes da execuÃ§Ã£o de leitura e organizaÃ§Ã£o.~~
-
-*~~Separar os tipos de arquivos .ret pela linha Lote buscando o valor 00 & BD~~
-
-*Criar estrutura organizadora por data, para novos arquivos.
-
-*Criar rastreio de arquivos no formato .RET, em seguida mover para a pasta "C:...\ARQUIVO_RET"
