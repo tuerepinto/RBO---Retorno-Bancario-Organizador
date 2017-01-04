@@ -22,7 +22,7 @@ Versão 1.0.0 👌
 
 * Separa os arquivos após realizar a leitura. O sistema identifica se e do tipo validador de borderô "BD" ou se de fato é um arquivo de validação do pagamento "00".
 
-***Melhorias e ajustes de versão
+* *Melhorias e ajustes de versão*
 * Renomeda a pasta "CONCRETO_HPS" para "CONCRETO_HSP".
 * Removida a pasta "CONCRETO_EMP".
 
