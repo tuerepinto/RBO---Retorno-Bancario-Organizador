@@ -4,6 +4,7 @@ import java.io.File;
 
 import javax.swing.JOptionPane;
 
+import br.com.layoutretbanc.builder.DateClass;
 import br.com.layoutretbanc.builder.FolderCreator;
 
 public class CreateFolderController {
@@ -76,10 +77,9 @@ public class CreateFolderController {
 	}
 
 	public void subFolder() {
-		File subfolderBlue = new File(FolderCreator.subFolderBlue);
+		File subfolderBlue = new File(FolderCreator.subFolderBlue +"\\"+ DateClass.getDate());
 		File subfolderCom = new File(FolderCreator.subFolderCom);
 		File subfolderCpr = new File(FolderCreator.subFolderCpr);
-		File subfolderEmp = new File(FolderCreator.subFolderEmp);
 		File subfolderGd = new File(FolderCreator.subFolderGd);
 		File subfolderGt = new File(FolderCreator.subFolderGt);
 		File subfolderCh = new File(FolderCreator.subFolderCh);
@@ -96,7 +96,6 @@ public class CreateFolderController {
 		File subfolderBlueBD = new File(FolderCreator.subFolderBlueBD);
 		File subfolderComBD = new File(FolderCreator.subFolderComBD);
 		File subfolderCprBD = new File(FolderCreator.subFolderCprBD);
-		File subfolderEmpBD = new File(FolderCreator.subFolderEmpBD);
 		File subfolderGdBD = new File(FolderCreator.subFolderGdBD);
 		File subfolderGtBD = new File(FolderCreator.subFolderGtBD);
 		File subfolderChBD = new File(FolderCreator.subFolderChBD);
@@ -117,7 +116,6 @@ public class CreateFolderController {
 				subFolder00 = subfolderBlue.mkdirs();
 				subFolder00 = subfolderCom.mkdirs();
 				subFolder00 = subfolderCpr.mkdirs();
-				subFolder00 = subfolderEmp.mkdirs();
 				subFolder00 = subfolderGd.mkdirs();
 				subFolder00 = subfolderGt.mkdirs();
 				subFolder00 = subfolderCh.mkdirs();
@@ -134,7 +132,6 @@ public class CreateFolderController {
 				subFolderBD = subfolderBlueBD.mkdirs();
 				subFolderBD = subfolderComBD.mkdirs();
 				subFolderBD = subfolderCprBD.mkdirs();
-				subFolderBD = subfolderEmpBD.mkdirs();
 				subFolderBD = subfolderGdBD.mkdirs();
 				subFolderBD = subfolderGtBD.mkdirs();
 				subFolderBD = subfolderChBD.mkdirs();

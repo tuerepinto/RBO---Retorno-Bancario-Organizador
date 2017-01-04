@@ -8,6 +8,7 @@ public class DirectoryFolder {
 	 */
 	public static String directory = "C:\\ArquivoRetBanc"; //Diretorio de arquivos que contem na linha "OO".
 	public static String newDirectory = "C:\\ArquivoRetBanc\\ArquivosRet_BD"; //Diretorio de arquivos que contem na linha "BD".
+	
 	public static String directoryCH = "C:\\ArquivoRetBanc\\ArquivosRet_00\\CONCRETO_HOLDING"; //Holding
 	public static String directoryObG = "C:\\ArquivoRetBanc\\ArquivosRet_00\\CONCRETO_OBG"; //Obras Gerais
 	public static String directoryNeg = "C:\\ArquivoRetBanc\\ArquivosRet_00\\CONCRETO_NEG"; //Negocio
@@ -21,7 +22,7 @@ public class DirectoryFolder {
 	public static String directoryImp = "C:\\ArquivoRetBanc\\ArquivosRet_00\\CONCRETO_IMP"; //Imperial
 	public static String directoryLum = "C:\\ArquivoRetBanc\\ArquivosRet_00\\CONCRETO_LUM"; //Lumiere
 	public static String directoryVic = "C:\\ArquivoRetBanc\\ArquivosRet_00\\CONCRETO_VIC";	//Victoria
-	public static String directoryHsp = "C:\\ArquivoRetBanc\\ArquivosRet_00\\CONCRETO_HPS"; //Hotel São Paulo
+	public static String directoryHsp = "C:\\ArquivoRetBanc\\ArquivosRet_00\\CONCRETO_HSP"; //Hotel São Paulo
 	public static String directorySpe = "C:\\ArquivoRetBanc\\ArquivosRet_00\\CONCRETO_SPE"; //SPE Patagonia
 	
 	public static String directoryCHBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_HOLDING"; //Holding
@@ -37,7 +38,7 @@ public class DirectoryFolder {
 	public static String directoryImpBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_IMP"; //Imperial
 	public static String directoryLumBD= "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_LUM"; //Lumiere
 	public static String directoryVicBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_VIC";	//Victoria
-	public static String directoryHspBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_HPS"; //Hotel São Paulo
+	public static String directoryHspBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_HSP"; //Hotel São Paulo
 	public static String directorySpeBD = "C:\\ArquivoRetBanc\\ArquivosRet_BD\\CONCRETO_SPE"; //SPE Patagonia
 	
 	public static String nome;
